@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="OnIdiomIssue.MainPage">
+
+    <StackLayout>
+        <Label x:Name="ValidationLabel"
+               Text="{OnIdiom Phone='I am a Phone', Tablet='I am a Tablet', Watch='I am a Watch', TV='I am a TV', Desktop='I am a Desktop', Default='I am not sure what I am :C'}"/>
+
+    </StackLayout>
+
+</ContentPage>
